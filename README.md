@@ -1,1 +1,8 @@
 # DOSW_Lab3_Garcia_Leguizamon_Pineda
+
+## Estudiantes
+| Nombre |
+| --- |
+| JOSE DANIEL GARCIA PINEDA |
+| THOMAS SEBASTIAN GARCIA GOMEZ |
+| JUAN GUILLERMO LEGUIZAMON RODRIGUEZ |
