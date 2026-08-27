@@ -39,7 +39,7 @@ El sistema de TechCup debe tener:
 | **Precondiciones** | *Para que el sistema cumpla con este requerimiento, TechCup debe tener previamente un sistema de acceso de la forma usuario - contraseña, debe tener integrado un sistema de registro de torneos, debe tener integrada una interfaz grafica que permita realizar un pago, se debe permitir pagos por PSE, debe permitir registrar equipos a torneos, el actor Capitan tuvo que haber inscrito su equipo al torneo previamente al pago* |
 | **Actor** | *Capitan* |
 | **Flujo principal** | 1. El actor Capitan ingresa con su usuario y contraseña en la plataforma<br>2. El sistema verifica sus credenciales y lo habilita para acceder a la cuenta<br>3. El sistema muestra el menu principal de la aplicacion<br>4. El actor Capitan ingresa al torneo que quiere pagar la tarifa<br>5. El sistema muestra la pagina principal del torneo dentro de la aplicacion<br>6. El actor Capitan le da al boton pagar inscripcion<br>7. El sistema muestra el menu de pagos y muestra las opciones disponibles que en este caso solamente esta por PSE<br>8. El actor Capitan da al boton "pagar por PSE"<br>9. El sistema redirecciona al actor hacia una ventana segura de pagos donde pueda ingresar sus datos<br>10. El sistema debe detectar de forma automatica si el pago fue realizado o no<br>11. El sistema regresa al menu principal |
-| **Diagrama de caso de uso** | docs/uml/CasoDeUso1.png |
+| **Diagrama de caso de uso** | uml/CasoDeUso1.png |
 | **Poscondiciones** | *Se espera como resultado dentro de la informacion del torneo el equipo quede registrado como "Pago realizado", debe generar un informe de la transaccion en formato JSON y debe ser enviada a la oficina de decanatura* |
 
 
@@ -66,7 +66,7 @@ El sistema de TechCup debe tener:
 | **Precondiciones** | *Para que el sistema cumpla con este requerimiento, TechCup debe tener previamente un sistema de alojamiento de datos donde se encuentren todos los usuarios ya registrados, se debe tener un sistema que permita modificar esta lista y agregar o quitar usuarios, se debe tener la interfaz grafica del menu, el menu de nuevo usuario y el menu principal de la aplicacion* |
 | **Actor** | *Estudiantes* |
 | **Flujo principal** | 1. El actor Estudiante ingresa en la aplicacion e ingresa sus credenciales<br>2. El sistema debe reconocer si estas credenciales son validas, en caso de que no lo sean sera rechazado en ingreso<br>3. El actor Estudiante ingresa en el boton de nuevo usuario<br>5. El sistema muestra al usuario el menu de registro de nuevo usuario con las opciones de darse un nombre de usuario y una contraseña<br>6. El actor da en las casillas permitadas para escribir<br>7. El sistema debe permitir escribir al usuario dentro de estas casillas<br>8. El actor da al boton registrar usuario<br>9. El sistema debe registrar al nuevo usuario<br>10. El sistema debe darle acceso al usuario<br>11. El sistema muestra el menu principal al usuario con su cuenta ingresada |
-| **Diagrama de caso de uso** | docs/uml/CasoDeUso3.png |
+| **Diagrama de caso de uso** | uml/CasoDeUso3.png |
 | **Poscondiciones** | *Se espera como resultado el sistema acceda al menu principal y/o agrege un nuevo usuario o rechazar el ingreso de un usuario sin credenciales validas* |
 
 ## 3. Preguntas
