@@ -53,7 +53,7 @@ El sistema de TechCup debe tener:
 | **Precondiciones** | *Para que el sistema cumpla con este requerimiento, TechCup debe tener previamente tener un sistema de acceso de la forma usuario - contraseña, debe existir un elemento previamente creado que permite acceder al menu de crear nuevo torneo a los Organizadores, debe existir un formato menu previamente construido para el registro de torneos* |
 | **Actor** | *Organizador* |
 | **Flujo principal** | 1. El actor Organizador ingresa con su usuario y contraseña en la plataformaEl sistema verifica sus credenciales y lo habilita para acceder a la cuenta<br>3. El sistema muestra el menu principal de la aplicacion<br>4. El actor Organizador se dirigue a la seccion de crear un torneo<br>5. El sistema muestra el menu de creacion de un nuevo torneo, donde se solicitara un nombre del torneo, la fecha de realizacion, la tarifa de ingreso y una descripcion asociada al torneo<br>6. El actor Organizador da click sobre los recuadros que solicitan la informacion<br>7. El sistema responde permitiendole escribir al organizador<br>8. El actor Organizador da click en registrar torneo<br>9. El sistema registra internamente el torneo en el sistema<br>10. El sistema muestra al usuario un mensaje que verifica la creacion del torneo de forma satisfactoria<br>11. El sistema regresa al menu principal |
-| **Diagrama de caso de uso** | ![Caso1](docs/uml/CasoDeUso2.png) |
+| **Diagrama de caso de uso** | ![Caso2](docs/uml/CasoDeUso2.png) |
 | **Poscondiciones** | *Se espera como resultado el torneo se vera reflejado en el sistema, se encuentre de forma automatica en estado "En progreso", se genere un ID unico que identifique al torneo de la forma año y semestre vigente al momento de la creacion del torneo* |
 
 ### 2.3 Requerimiento Funcional 3
@@ -66,7 +66,7 @@ El sistema de TechCup debe tener:
 | **Precondiciones** | *Para que el sistema cumpla con este requerimiento, TechCup debe tener previamente un sistema de alojamiento de datos donde se encuentren todos los usuarios ya registrados, se debe tener un sistema que permita modificar esta lista y agregar o quitar usuarios, se debe tener la interfaz grafica del menu, el menu de nuevo usuario y el menu principal de la aplicacion* |
 | **Actor** | *Estudiantes* |
 | **Flujo principal** | 1. El actor Estudiante ingresa en la aplicacion e ingresa sus credenciales<br>2. El sistema debe reconocer si estas credenciales son validas, en caso de que no lo sean sera rechazado en ingreso<br>3. El actor Estudiante ingresa en el boton de nuevo usuario<br>5. El sistema muestra al usuario el menu de registro de nuevo usuario con las opciones de darse un nombre de usuario y una contraseña<br>6. El actor da en las casillas permitadas para escribir<br>7. El sistema debe permitir escribir al usuario dentro de estas casillas<br>8. El actor da al boton registrar usuario<br>9. El sistema debe registrar al nuevo usuario<br>10. El sistema debe darle acceso al usuario<br>11. El sistema muestra el menu principal al usuario con su cuenta ingresada |
-| **Diagrama de caso de uso** | ![Caso1](docs/uml/CasoDeUso3.png) |
+| **Diagrama de caso de uso** | ![Caso3](docs/uml/CasoDeUso3.png) |
 | **Poscondiciones** | *Se espera como resultado el sistema acceda al menu principal y/o agrege un nuevo usuario o rechazar el ingreso de un usuario sin credenciales validas* |
 
 ## 3. Preguntas
